@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+}
+
+header img {
+    width: 150px;
+}
+
+.secao {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.secao-um {
+    background-color: #afddfb;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+a {
+    color: #1d1d1d;
+    text-decoration: none;
+    border-bottom: 2px solid #1d1d1d;
+}
+
+/* SEÇÃO DOIS */
+
+#secao-dois img {
+    margin-top: 50px;
+}
+
+/* SEÇÃO TRÊS */ 
+
+h1 {
+    margin-bottom: 5px;
+    color: #1d1d1d;
+}
+
+.subtitulo {
+    color: #1c81c0;
+    font-weight: normal;
+}
+
+#secao-tres img {
+    width: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.paragrafo {
+    font-size: 18px;
+    text-align: justify;
+    width: 980px;
+    margin: 0 auto;
+    color: #1d1d1d;
+}
+
+.texto-azul {
+    color: #1d80c1;
+    font-weight: bold;
+}
+
+/* SEÇÃO QUATRO */
+
+.fundo-azul {
+    background-color: #1d80c1;
+}
+
+.secao-quatro__titulo {
+    color: #ffffff;
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.secao-quatro__paragrafo {
+    width: 700px;
+    margin: 0 auto;
+    line-height: 42px;
+    font-size: 22px;
+    color: #ffffff;
+
+}
+
+.texto-amarelo {
+    color: #fff81b;
+}
+
+.secao-quatro__lista {
+    margin: 40px auto;
+    text-align: left;
+    width: 135px;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 42px;
+}
