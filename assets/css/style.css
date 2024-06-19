@@ -52,13 +52,13 @@ h1 {
     font-weight: normal;
 }
 
-#secao-tres img {
+.secao-imagem {
     width: 450px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.paragrafo {
+.secao__paragrafo, .secao-cinco__paragrafo {
     font-size: 18px;
     text-align: justify;
     width: 980px;
@@ -77,7 +77,7 @@ h1 {
     background-color: #1d80c1;
 }
 
-.secao-quatro__titulo {
+.secao__titulo {
     color: #ffffff;
     font-size: 28px;
     margin-bottom: 30px;
@@ -90,11 +90,13 @@ h1 {
     line-height: 42px;
     font-size: 22px;
     color: #ffffff;
+    text-align: center;
 
 }
 
 .texto-amarelo {
     color: #fff81b;
+    font-weight: bold;
 }
 
 .secao-quatro__lista {
@@ -105,3 +107,38 @@ h1 {
     font-size: 22px;
     line-height: 42px;
 }
+
+.secao_titulo__cor-azul {
+    color: #1c81c0
+}
+
+/* SECAO SEIS */
+
+.secao-seis__paragrafo {
+    color: #ffffff;
+    background-color: #1d1d1d;
+    padding: 15px;
+    margin: 30px auto;
+    width: 980px;
+}
+
+.secao-seis__lista {
+    width: 210px;
+    margin: 40px auto;
+    list-style: none;
+}
+
+.secao-seis__item {
+    margin-top: 15px;
+}
+
+.secao-seis__link {
+    background-color: #ffffff;
+    color: #1d80c1;
+    line-height: 2px;
+    padding: 2px 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
